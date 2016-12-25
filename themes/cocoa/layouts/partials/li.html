@@ -1,0 +1,6 @@
+<li class="post-item">
+    <span class="meta" style="display: none;">{{ .Date.Format .Site.Params.dateform }}</span>
+    <a href="{{ .Permalink }}">
+      <img src="{{ .Params.image }}" title="{{ .Title }}" class="project-miniature" />
+    </a>
+</li>
