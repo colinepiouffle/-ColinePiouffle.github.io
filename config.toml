@@ -1,0 +1,37 @@
+title = "Coline Piouffle"
+author = "Coline Piouffle"
+description = "** Description **"
+
+baseurl = "https://coline.piouffle.me"
+languageCode = "fr-FR"
+theme = "cocoa"
+
+
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+pygmentsuseclasses = true
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+projets = "projets/:slug/"
+
+[params]
+author = "Coline Piouffle"
+# gravatar = "" # do not use in the same time as Avatar
+# avatar = "" # path to image in static dir e.g img/avatar.png (do not use in the same time as Gravatar)
+# cachebuster = false # FIXME: See issue #32.
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Don't panic"
+email = "coline@piouffle.me"
+faviconfile = "img/favicon.ico"
+highlightjs = false
+# highlightjslanguages = ["go"] # additional languages not included in the "common" set
+#initials = "ad" # Displayed on single post page; DEPRECATED in v0.3.0.
+lang = "fr"
+
+extracssfiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
